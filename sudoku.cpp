@@ -51,12 +51,10 @@ bool solve(int s[n][n]){
 
 int main(){
     int s[n][n]={{0,0,0,0,0,0,0,0,0}};
-	freopen("input.txt","r",stdin);
-	freopen("output.txt","w",stdout);
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
 			cin >> s[i][j];
-			if(s[i][j]<0 || s[i][j]>9){cout << "ERROR"; return 0;}
+			if(s[i][j]<0 || s[i][j]>9){cout << "ERROR\n"; return 0;}
 		}
     }
     if(solve(s)){
@@ -65,7 +63,7 @@ int main(){
             cout << '\n';
         }
     }
-    else cout << "ERROR";
+    else cout << "ERROR\n";
     return 0;
 }
 //by: 4rt3xp0
