@@ -14,7 +14,7 @@ Sample input:<br/>
 0 0 0 0 5 0 0 0 0<br/>
 (0-s are the unknown numbers)<br/>
 <br/>
-If there is no solution, or the input is incorrect, it prints "ERROR"<br/>
+If there is no solution, or the input is incorrect, it prints "ERROR".<br/>
 <br/>
 The program uses a brute-force algorithm to find the solution.<br/>
 If there are multiple solutions, the program prints the lexicographically first solution.<br/>
